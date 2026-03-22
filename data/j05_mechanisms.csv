@@ -1,0 +1,68 @@
+chembl_id,target_chembl_id,action_type,mechanism_of_action,direct_interaction,disease_efficacy
+CHEMBL1643,CHEMBL1822,INHIBITOR,Inosine-5'-monophosphate dehydrogenase 1 inhibitor,1,1
+CHEMBL256907,CHEMBL274,ANTAGONIST,C-C chemokine receptor type 5 antagonist,1,1
+CHEMBL853,CHEMBL247,INHIBITOR,Human immunodeficiency virus type 1 reverse transcriptase inhibitor,1,1
+CHEMBL1460,CHEMBL247,INHIBITOR,Human immunodeficiency virus type 1 reverse transcriptase inhibitor,1,1
+CHEMBL885,CHEMBL247,INHIBITOR,Human immunodeficiency virus type 1 reverse transcriptase inhibitor,1,1
+CHEMBL223228,CHEMBL247,INHIBITOR,Human immunodeficiency virus type 1 reverse transcriptase inhibitor,1,1
+CHEMBL129,CHEMBL247,INHIBITOR,Human immunodeficiency virus type 1 reverse transcriptase inhibitor,1,1
+CHEMBL57,CHEMBL247,INHIBITOR,Human immunodeficiency virus type 1 reverse transcriptase inhibitor,1,1
+CHEMBL991,CHEMBL247,INHIBITOR,Human immunodeficiency virus type 1 reverse transcriptase inhibitor,1,1
+CHEMBL308954,CHEMBL247,INHIBITOR,Human immunodeficiency virus type 1 reverse transcriptase inhibitor,1,1
+CHEMBL141,CHEMBL247,INHIBITOR,Human immunodeficiency virus type 1 reverse transcriptase inhibitor,1,1
+CHEMBL222813,CHEMBL2051,INHIBITOR,Neuraminidase inhibitor,1,1
+CHEMBL222813,CHEMBL3377,INHIBITOR,Neuraminidase inhibitor,1,1
+CHEMBL204656,CHEMBL3471,INHIBITOR,Human immunodeficiency virus type 1 integrase inhibitor,1,1
+CHEMBL1643,CHEMBL4296320,INHIBITOR,RNA-directed RNA polymerase inhibitor,1,1
+CHEMBL218394,CHEMBL2095231,INHIBITOR,"Hepatitis C virus serine protease, NS3/NS4A inhibitor",1,1
+CHEMBL231813,CHEMBL2095231,INHIBITOR,"Hepatitis C virus serine protease, NS3/NS4A inhibitor",1,1
+CHEMBL5314375,CHEMBL1872,INHIBITOR,Human herpesvirus 1 DNA polymerase inhibitor,1,1
+CHEMBL182,CHEMBL1872,INHIBITOR,Human herpesvirus 1 DNA polymerase inhibitor,1,1
+CHEMBL184,CHEMBL1872,INHIBITOR,Human herpesvirus 1 DNA polymerase inhibitor,1,1
+CHEMBL1090,CHEMBL1872,INHIBITOR,Human herpesvirus 1 DNA polymerase inhibitor,1,1
+CHEMBL880,CHEMBL1872,INHIBITOR,Human herpesvirus 1 DNA polymerase inhibitor,1,1
+CHEMBL163,CHEMBL243,INHIBITOR,Human immunodeficiency virus type 1 protease inhibitor,1,1
+CHEMBL116,CHEMBL243,INHIBITOR,Human immunodeficiency virus type 1 protease inhibitor,1,1
+CHEMBL114,CHEMBL243,INHIBITOR,Human immunodeficiency virus type 1 protease inhibitor,1,1
+CHEMBL222559,CHEMBL243,INHIBITOR,Human immunodeficiency virus type 1 protease inhibitor,1,1
+CHEMBL141,CHEMBL2363048,INHIBITOR,DNA inhibitor,1,1
+CHEMBL141,CHEMBL2363046,INHIBITOR,DNA inhibitor,1,1
+CHEMBL141,CHEMBL2363047,INHIBITOR,DNA inhibitor,1,1
+CHEMBL1643,CHEMBL2363073,INHIBITOR,RNA inhibitor,1,1
+CHEMBL525076,CHEMBL2362987,INHIBITOR,Transmembrane glycoprotein gp41 inhibitor,1,1
+CHEMBL5314362,CHEMBL2362994,INHIBITOR,DNA polymerase/reverse transcriptase inhibitor,1,1
+CHEMBL922,CHEMBL2362994,INHIBITOR,DNA polymerase/reverse transcriptase inhibitor,1,1
+CHEMBL374731,CHEMBL2362994,INHIBITOR,DNA polymerase/reverse transcriptase inhibitor,1,1
+CHEMBL141,CHEMBL2362994,INHIBITOR,DNA polymerase/reverse transcriptase inhibitor,1,1
+CHEMBL788,CHEMBL2366042,INHIBITOR,DNA inhibitor,1,1
+CHEMBL1259059,CHEMBL4296320,INHIBITOR,RNA-directed RNA polymerase inhibitor,1,1
+CHEMBL3039514,CHEMBL3307224,INHIBITOR,Nonstructural protein 5A inhibitor,1,1
+CHEMBL1241348,CHEMBL2095231,INHIBITOR,"Hepatitis C virus serine protease, NS3/NS4A inhibitor",1,1
+CHEMBL458875,CHEMBL3833482,INHIBITOR,Protein P inhibitor,1,1
+CHEMBL515408,CHEMBL3833483,INHIBITOR,Serine/threonine-protein kinase BGLF4 inhibitor,1,1
+CHEMBL29609,CHEMBL3833484,DISRUPTING AGENT,VP1 capsid protein disrupting agent,1,1
+CHEMBL515408,CHEMBL1287608,INHIBITOR,Phosphotransferase pUL97 inhibitor,1,1
+CHEMBL1540,CHEMBL1872,INHIBITOR,Human herpesvirus 1 DNA polymerase inhibitor,1,1
+CHEMBL1241951,CHEMBL3991482,INHIBITOR,DNA terminase inhibitor,1,1
+CHEMBL2107825,CHEMBL247,INHIBITOR,Human immunodeficiency virus type 1 reverse transcriptase inhibitor,1,1
+CHEMBL2364608,CHEMBL247,NEGATIVE ALLOSTERIC MODULATOR,Human immunodeficiency virus type 1 reverse transcriptase negative allosteric modulator,1,1
+CHEMBL4297503,CHEMBL1169598,INHIBITOR,Polymerase acidic protein inhibitor,1,1
+CHEMBL4297503,CHEMBL2028641,INHIBITOR,Polymerase acidic protein inhibitor,1,1
+CHEMBL4065616,CHEMBL4303062,INHIBITOR,RNA-directed RNA polymerase L inhibitor,1,1
+CHEMBL1255891,CHEMBL2095231,INHIBITOR,"Hepatitis C virus serine protease, NS3/NS4A inhibitor",1,1
+CHEMBL2105735,CHEMBL2095231,INHIBITOR,"Hepatitis C virus serine protease, NS3/NS4A inhibitor",1,1
+CHEMBL1214598,CHEMBL3559640,NEGATIVE MODULATOR,Hemagglutinin negative modulator,1,1
+CHEMBL3301594,CHEMBL3520,INHIBITOR,Envelope polyprotein GP160 inhibitor,1,1
+CHEMBL1323,CHEMBL243,INHIBITOR,Human immunodeficiency virus type 1 protease inhibitor,1,1
+CHEMBL4297592,CHEMBL4523677,INHIBITOR,Helicase primate complex inhibitor,1,1
+CHEMBL4065616,CHEMBL4523582,INHIBITOR,Replicase polyprotein 1ab inhibitor,1,1
+CHEMBL221722,CHEMBL4523676,INHIBITOR,RNA-directed RNA polymerase inhibitor,1,1
+CHEMBL2403238,CHEMBL3471,INHIBITOR,Human immunodeficiency virus type 1 integrase inhibitor,1,1
+CHEMBL3121849,CHEMBL3307224,INHIBITOR,Nonstructural protein 5A inhibitor,1,1
+CHEMBL163,CHEMBL2364675,INHIBITOR,Cytochrome P450 3A inhibitor,1,1
+CHEMBL4594438,CHEMBL2366504,INHIBITOR,Structural capsid protein inhibitor,1,1
+CHEMBL175691,CHEMBL247,INHIBITOR,Human immunodeficiency virus type 1 reverse transcriptase inhibitor,1,1
+CHEMBL203321,CHEMBL3988586,INHIBITOR,DNA polymerase inhibitor,1,1
+CHEMBL4297257,CHEMBL3559676,INHIBITOR,GP41 inhibitor,1,1
+CHEMBL1257073,CHEMBL5308522,INHIBITOR,Envelope phospholipase OPG057 inhibitor,1,1
+CHEMBL4650320,CHEMBL5604041,DISRUPTING AGENT,RNA disrupting agent,1,1
