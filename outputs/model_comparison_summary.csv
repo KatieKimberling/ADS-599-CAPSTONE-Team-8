@@ -1,0 +1,3 @@
+model,generated_total,valid_rate,unique_valid,full_lipinski_pass_rate,avg_lipinski_score,avg_similarity_to_seed,novelty_rate
+Baseline Mutation,500,0.038,13,0.8461538461538461,3.769230769230769,0.1549233395653459,0.07692307692307693
+LSTM Generator,500,0.028,6,1.0,4.0,0.010416666666666666,1.0

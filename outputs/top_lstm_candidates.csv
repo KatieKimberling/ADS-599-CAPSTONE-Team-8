@@ -1,0 +1,7 @@
+smiles,molecular_weight,logp,hbd,hba,lipinski_score,full_pass,similarity_to_seed
+BO,29.834999999999997,-1.4732,1,1,4,True,0.0625
+,0.0,0.0,0,0,4,True,0.0
+O,18.015,-0.8247,0,0,4,True,0.0
+B,13.835999999999999,-1.1839000000000002,0,0,4,True,0.0
+CF,34.033,0.5857,0,0,4,True,0.0
+COC,46.069,0.26260000000000006,0,1,4,True,0.0

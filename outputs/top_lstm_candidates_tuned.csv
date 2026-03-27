@@ -1,0 +1,3 @@
+smiles,molecular_weight,logp,hbd,hba,lipinski_score,full_pass,similarity_to_seed
+O=CCCCCO,102.133,0.34790000000000004,1,2,4,True,0.11538461538461539
+CC(C=O)CC=O,100.11699999999999,0.4104,0,2,4,True,0.07407407407407407
