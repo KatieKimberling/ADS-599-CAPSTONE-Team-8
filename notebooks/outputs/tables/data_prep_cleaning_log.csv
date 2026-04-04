@@ -1,0 +1,7 @@
+step,why,rows_before,rows_after
+Standardized column names,Improves consistency across notebooks and reduces merge problems.,,
+Removed exact duplicate rows,Duplicate rows can bias summary statistics and downstream modeling.,87.0,87.0
+Removed invalid SMILES rows,Invalid structures cannot support descriptor generation or modeling.,87.0,87.0
+Removed duplicate canonical SMILES,Prevents repeated molecular structures from being overweighted.,87.0,87.0
+Created molecular descriptor features,Adds structured chemical property features for analysis and modeling.,,
+Created SMILES length feature,Captures a basic measure of molecular sequence complexity.,,
