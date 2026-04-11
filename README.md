@@ -127,17 +127,25 @@ The app serves as a **visual and interactive layer** for exploring model outputs
 
 ```bash
 ADS-599-CAPSTONE-Team-8/
+│
 ├── app.py
-├── model_utils.py
+├── README.md
+├── requirements.txt
+│
+├── src/
+│   └── model_utils.py
+│
 ├── data/
-│   ├── raw/
-│   └── processed/
+│   ├── *.csv
+│   └── smiles_vocab.json
+│
 ├── notebooks/
+│   └── *.ipynb
+│
 ├── outputs/
 │   ├── artifacts/
-│   └── results/
-├── requirements.txt
-└── README.md
+│   ├── app_runs/
+│   └── *.csv
 ```
 ---
 
