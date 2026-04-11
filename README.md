@@ -151,8 +151,12 @@ ADS-599-CAPSTONE-Team-8/
 
 ### Description
 
-- **app.py** – Streamlit web application  
-- **model_utils.py** – Model training and generation logic  
+- **app.py** – Streamlit web application
+- **requirements.txt** – Python dependencies  
+- **README.md** – Project documentation
+
+- **src/**
+   -  **model_utils.py** – Model training and generation logic  
 
 - **data/**
   - **raw/** – Original datasets (ChEMBL, etc.)  
@@ -163,9 +167,6 @@ ADS-599-CAPSTONE-Team-8/
 - **outputs/**
   - **artifacts/** – Saved models (.pt files, metadata)  
   - **results/** – Generated molecules and evaluation outputs  
-
-- **requirements.txt** – Python dependencies  
-- **README.md** – Project documentation  
 
 ## ⚙️ How to Run
 
