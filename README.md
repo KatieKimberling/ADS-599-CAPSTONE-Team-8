@@ -1,93 +1,227 @@
-# **Breaking the “Lead Optimization” Bottleneck in Drug Development for Emerging Infectious and Drug-Resistant Diseases:**
-## **Artificial Intelligence-Driven Novel Antiviral Drug Discovery**
+# 🧬 Breaking the Lead Optimization Bottleneck in Drug Discovery  
+### Artificial Intelligence–Driven Novel Antiviral Generation  
 
-## A data science capstone project using generative AI in a pipeline to create novel BSA molecules that (a) target emerging infectious or drug-resistant diseases while (b)  passing membrane solubility and human toxicity guidelines in order to (c) drastically reduce the amount of time traditionally required in drug development.
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-LSTM-red)
+![RDKit](https://img.shields.io/badge/RDKit-Chemistry-green)
+![Streamlit](https://img.shields.io/badge/Streamlit-Web_App-orange)
+![Capstone](https://img.shields.io/badge/USD-Capstone_Project-blueviolet)
+![Team](https://img.shields.io/badge/Team-8-black)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-## University of San Diego Applied Data Science Masters Program
-### Spring 2026 (B), Professor Ebrahim Tarshizi
+## 📌 Overview
 
-#### **Authors:**
-- Linden Conrad-Marut
-- Katherine "Katie" Kimberling
-- Jordan Torres
+This project builds an end-to-end generative AI pipeline for antiviral drug discovery. It focuses on accelerating the transition from a **known active compound (“hit”)** to a **viable candidate (“lead”)** by generating and filtering novel molecular structures.
 
-## **Project Overview**
+The system uses SMILES-based molecular representations, deep learning, and rule-based filtering to propose new antiviral candidates that satisfy drug-like constraints.
 
-This project implements a production-style data science pipeline that integrates:
+This work was developed as part of the University of San Diego MS in Applied Data Science capstone.
 
-- Harvesting J05 broad spectrum antiviral SMILES strings from ChEMBL
-- Standardizing and tokenizing text-based descriptions of chemical compounds (SMILES)
-- Feature engineering (Lipinski's Rule of Five)
-- Incorporating generative artificial intelligence into modeling
-- Development of a user-facing, web-based artifact
+## 🎯 Objective
 
-The system demonstrates how the exorbitant computing power of Generative AI can be harnessed to speed the time in antiviral drug discovery from a "hit" (a chemical compound that targets a virus) to a "lead" (compound will also be a safe vaccine or medication for humans).
+The goal of this project is to:
 
-Link to Web Artifact: [Web Artifact](https://ads-599-capstone-team-8-ga4zqwdzwasig2jxp33hgr.streamlit.app/)
+- Generate **novel antiviral molecules** using generative AI  
+- Ensure outputs are **chemically valid and drug-like**  
+- Provide a **decision-support tool** for early-stage drug discovery  
 
-## System Architecture
+Rather than replacing laboratory validation, this system acts as a **computational screening layer** to prioritize candidates.
 
-1. Data Ingestion & Cleaning  
-2. Feature Engineering  
-3. Statistical Analysis & Visualization (EDA)
-4. Modeling (naive baseline and LSTM)
-5. Hyperparameter Tuning
-6. Model Evaluation 
-7. Generation of Web Artifact
+## 🧠 Key Features
 
-## Technology Stack
+- SMILES-based molecular generation  
+- Baseline mutation model vs LSTM comparison  
+- RDKit validation and standardization  
+- Lipinski Rule of Five filtering  
+- Similarity scoring against seed molecules  
+- Streamlit web application for interaction  
 
-- Python 3.x
-- RDKit
-- PyTorch LSTM
-- ChEMBL
-- Pandas / NumPy
-- Matplotlib / Seaborn
+## 🏗️ Project Pipeline
 
-## Web Artifact
+The system follows a structured pipeline:
 
+1. **Data Collection**
+   - J05 antiviral compounds from ChEMBL
 
+2. **Data Cleaning & Validation**
+   - RDKit sanitization  
+   - Deduplication  
+   - Canonical SMILES conversion  
 
-## Ethical and Practical Considerations
+3. **Feature Engineering**
+   - Molecular descriptors (MW, logP, HBD, HBA)  
+   - Lipinski compliance flag  
 
-- blah blah blah
+4. **Modeling**
+   - Baseline: mutation-based generator  
+   - Primary: character-level LSTM  
 
-## How to Run This Project
+5. **Generation**
+   - Sample candidate molecules  
+   - Validate with RDKit  
 
-1.  Clone the repository:
+6. **Filtering & Ranking**
+   - Lipinski rules  
+   - Similarity scoring  
+   - Structural constraints  
+
+7. **Deployment**
+   - Streamlit web app interface  
+
+## 📊 Results Summary
+
+- **Baseline Model**
+  - Higher validity rate  
+  - Low novelty  
+
+- **LSTM Model**
+  - Lower validity  
+  - 100% novelty among valid outputs  
+  - All valid outputs passed Lipinski rules  
+
+**Key takeaway:**  
+There is a tradeoff between **quantity (baseline)** and **quality + novelty (LSTM)**.
+## 🌐 Web Application
+
+🔗 **Live App:**  
+https://ads-599-capstone-team-8-ga4zqwdzwasig2jxp33hgr.streamlit.app/
+
+### What the app does:
+
+- Accepts a SMILES string (or seed molecule)  
+- Generates new molecular candidates  
+- Displays:
+  - Molecular structures  
+  - SMILES output  
+  - Drug-like properties  
+  - Lipinski pass/fail  
+  - Similarity score  
+
+The app serves as a **visual and interactive layer** for exploring model outputs.
+
+## 🧰 Tech Stack
+
+### Core Modeling & ML
+- Python 3.11  
+- PyTorch (LSTM neural network)  
+- Scikit-learn  
+
+### Chemistry & Data
+- RDKit  
+- ChEMBL Web Resource Client  
+- Pandas / NumPy  
+
+### Visualization
+- Matplotlib  
+- Seaborn  
+- Plotly  
+
+### Application Layer
+- Streamlit  
+
+### Development Environment
+- JupyterLab  
+- Git / GitHub  
+
+## 📁 Repository Structure
+
+```bash
+ADS-599-CAPSTONE-Team-8/
+├── app.py
+├── model_utils.py
+├── data/
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+├── outputs/
+│   ├── artifacts/
+│   └── results/
+├── requirements.txt
+└── README.md
 ```
-git clone (https://github.com/KatieKimberling/ADS-599-CAPSTONE-Team-8.git)
-cd ADS-599-CAPSTONE-Team-8
+---
+
+### Description
+
+- **app.py** – Streamlit web application  
+- **model_utils.py** – Model training and generation logic  
+
+- **data/**
+  - **raw/** – Original datasets (ChEMBL, etc.)  
+  - **processed/** – Cleaned and model-ready data  
+
+- **notebooks/** – EDA, preprocessing, and modeling notebooks  
+
+- **outputs/**
+  - **artifacts/** – Saved models (.pt files, metadata)  
+  - **results/** – Generated molecules and evaluation outputs  
+
+- **requirements.txt** – Python dependencies  
+- **README.md** – Project documentation  
+
+## ⚙️ How to Run
+
+### 1. Clone the repo
+```
+git clone https://github.com/KatieKimberling/ADS-599-CAPSTONE-Team-8.git  
+cd ADS-599-CAPSTONE-Team-8  
 ```
 
-2.  Create & Activate Environment:  
-We recommend a fresh Conda environment to avoid dependency conflicts.
+### 2. Create environment
 ```
-conda create -n capstone_eq python=3.11
-conda activate capstone_eq
+conda create -n capstone_env python=3.11  
+conda activate capstone_env  
 ```
 
-Install required packages:
+### 3. Install dependencies
 ```
 pip install -r requirements.txt
 ```
 
-3.  Run the BLAH BLAH
-
-
-4.  Generate Required Artifacts (One-Time Setup):  
-
-
-5. Launch the Streamlit App:  
-From the project root type: 
+### 4. Run the app
 ```
-streamlit run app.py
+steam_mvp.py run app.py
 ```
-The app will automatically open in your browser.
 
-## Using the Application
+## 🧪 How to Use
 
+1. Input a SMILES string or choose a seed molecule  
+2. Generate candidates  
+3. Review:
+   - Validity  
+   - Drug-likeness  
+   - Structural similarity  
+4. Identify promising molecules for further analysis  
 
+## ⚠️ Limitations
 
+- Small dataset (~87 molecules) limits generalization  
+- LSTM struggles with complex molecular structures  
+- Heavy reliance on Lipinski rules may exclude valid antivirals  
+- Not a replacement for experimental validation  
 
+## 🚀 Future Improvements
+
+- Expand dataset (antibiotics, cancer drugs, larger ChEMBL subsets)  
+- Use transformer-based models  
+- Add ADMET prediction models  
+- Improve ranking and scoring system  
+- Optimize generation speed in the app  
+
+## 🤝 Authors
+
+- Linden Conrad-Marut  
+- Katherine Kimberling  
+- Jordan Torres  
+
+University of San Diego  
+MS Applied Data Science  
+
+## 📌 Acknowledgment
+
+AI tools were used to support development, planning, and drafting. All outputs were reviewed and validated by the authors, who take full responsibility for the final content.
+
+## 🔑 Final Notes
+
+This project demonstrates how generative AI can be integrated into a practical pipeline for molecular discovery, with a clear path toward real-world research support.
 
