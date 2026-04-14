@@ -165,7 +165,8 @@ ADS-599-CAPSTONE-Team-8/
   - **raw/** – Original datasets (ChEMBL, etc.)  
   - **processed/** – Cleaned and model-ready data  
 
-- **notebooks/** – EDA, preprocessing, and modeling notebooks
+- **notebooks/**
+  – EDA, preprocessing, and modeling notebooks
 
 - **notebooks_supporting/**  
   - Contains exploratory, earlier, and supporting notebooks used during development  
