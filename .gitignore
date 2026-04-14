@@ -6,3 +6,5 @@ __pycache__/
 data/raw/*
 .ipynb_checkpoints/
 **/__pycache__/
+.DS_Store
+.ipynb_checkpoints/
