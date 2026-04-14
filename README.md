@@ -180,7 +180,7 @@ ADS-599-CAPSTONE-Team-8/
     - `smiles_vocab.json` – Character-level vocabulary for SMILES encoding  
 
 - **notebooks/**
-  – EDA, preprocessing, and modeling notebooks
+   - EDA, preprocessing, and modeling notebooks
 
 - **notebooks_supporting/**  
   - Contains exploratory, earlier, and supporting notebooks used during development  
