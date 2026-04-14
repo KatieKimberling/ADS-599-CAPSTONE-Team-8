@@ -141,6 +141,9 @@ ADS-599-CAPSTONE-Team-8/
 │
 ├── notebooks/
 │   └── *.ipynb
+│   
+├── notebooks_supporting/
+│   └── *.ipynb
 │
 ├── outputs/
 │   ├── artifacts/
@@ -162,7 +165,12 @@ ADS-599-CAPSTONE-Team-8/
   - **raw/** – Original datasets (ChEMBL, etc.)  
   - **processed/** – Cleaned and model-ready data  
 
-- **notebooks/** – EDA, preprocessing, and modeling notebooks  
+- **notebooks/** – EDA, preprocessing, and modeling notebooks
+
+- **notebooks_supporting/**  
+  - Contains exploratory, earlier, and supporting notebooks used during development  
+  - Includes initial data pulls, alternative dataset experiments, and early pipeline iterations  
+  - These notebooks provide insight into the evolution of the project but are not required to run the final workflow  
 
 - **outputs/**
   - **artifacts/** – Saved models (.pt files, metadata)  
@@ -189,7 +197,7 @@ pip install -r requirements.txt
 
 ### 4. Run the app
 ```
-steam_mvp.py run app.py
+streamlit run app.py
 ```
 
 ## 🧪 How to Use
@@ -233,4 +241,3 @@ AI tools were used to support development, planning, and drafting. All outputs w
 ## 🔑 Final Notes
 
 This project demonstrates how generative AI can be integrated into a practical pipeline for molecular discovery, with a clear path toward real-world research support.
-
